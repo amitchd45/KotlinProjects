@@ -35,10 +35,10 @@ class RetroActivity : AppCompatActivity() {
         layoutManager.orientation = LinearLayoutManager.VERTICAL
         recyclerView.layoutManager = layoutManager
 
-        App.sinltonPojo!!.data = "Mohan"
+        App.sinltonPojo!!.data = "Kiran"
 
 
-        App.appPreference!!.SaveString("Data", "Manjinder")
+        App.appPreference!!.SaveString("Data", "AMit")
 
         print("Data Is: " + App.appPreference!!.GetString("Data"))
 

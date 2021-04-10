@@ -6,12 +6,12 @@ import retrofit2.http.GET
 
 interface Api {
 
-    @get:GET("top-headlines?country=in&apiKey=b4f0614a42bc491498fa9fc73943a173")
+    @get:GET("top-headlines?country=in&apiKey=ac4f9dccb02a4335bc7b1e3fda12e7aa")
     val everthing: Call<ResonseClass>
 
-    @get:GET("top-headlines?country=in&category=sports&apiKey=b4f0614a42bc491498fa9fc73943a173")
+    @get:GET("top-headlines?country=in&category=sports&apiKey=ac4f9dccb02a4335bc7b1e3fda12e7aa")
     val sourceNews: Call<ResonseClass>
 
-    @GET("top-headlines?country=us&apiKey=b4f0614a42bc491498fa9fc73943a173")
+    @GET("top-headlines?country=in&apiKey=ac4f9dccb02a4335bc7b1e3fda12e7aa")
     fun getnewsData(): Call<ResonseClass>
 }
